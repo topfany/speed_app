@@ -1,0 +1,147 @@
+/*************************common*/
+html,body{
+	font-family: "微软雅黑";
+	
+} 
+body{
+	margin-top: 102px;
+}
+
+a{
+	text-decoration:none !important;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    background-color: #fff;
+    color: #428bca;
+}
+.navbar-default {
+    background-color: #fff;
+    color: #428bca;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #428bca;
+}
+
+#main-menu-user li.user {
+	display: none;
+}
+
+.text-color{
+	color: #428bca !important;
+}
+
+.logo{
+	width: 186px;
+	height: 60px;
+	margin: 20px 20px;
+	background: url(../../images/web_file/logo_spaclient.png) no-repeat;
+}
+.navbar-default{
+	margin-bottom: 0 ;
+}
+ .navbar-nav{
+ 	padding: 20px 0;
+ }
+.navbar-toggle{
+	 margin-top: 20px;
+}
+.jumbotron-home {
+    background: radial-gradient(ellipse at center center , #73d0f0 0px, #73d0f0 4%, #3d9dd0 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-bottom: 20px solid #428bca;
+    padding: 0;
+    color: #fff;
+}
+.down-btn{
+	display: inline-block;
+	color: #fff;
+	border: 1px solid #71CEEF;
+	padding: 25px 10px;
+	height: 100px;
+	width: 180px;
+	border-radius: 20px;
+	font-size: 16px;
+	margin-bottom: 10px;
+    background: -webkit-linear-gradient(left top,#71CEEF, #428bca); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(bottom right,#71CEEF, #428bca); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(bottom right,#71CEEF, #428bca); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to bottom right,#71CEEF, #428bca); /* 标准的语法（必须放在最后） */
+}
+.down-btn:hover{
+	background: -webkit-linear-gradient(left top, #428bca,#71CEEF); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(bottom right,#428bca,#71CEEF); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(bottom right, #428bca,#71CEEF); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to bottom right, #428bca,#71CEEF); /* 标准的语法（必须放在最后） */
+}
+.b-btn:before {
+    background-color: #ccd0d5;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px #909193 inset, 0 1px 0 #fff;
+    content: "";
+    display: block;
+    height: 100%;
+    left: -8px;
+    padding: 8px;
+    position: absolute;
+    top: -8px;
+    width: 100%;
+    z-index: -1;
+}
+.b-btn {
+    background-color: #3bb3e0;
+    background-image: -moz-linear-gradient(center bottom , rgb(44, 160, 202) 0%, rgb(62, 184, 229) 100%);
+    border: 1px solid #186f8f;
+    border-radius: 5px;
+    box-shadow: 0 1px 0 #7fd2f1 inset, 0 1px 0 #fff;
+    color: #fff;
+    font-family: "Open Sans",sans-serif;
+    font-size: 12px;
+    padding: 10px;
+    position: relative;
+    text-decoration: none;
+}
+
+.trait i{
+	display: block;
+	padding: 10px;
+	color: #ccc;
+}
+
+.trait:hover{
+	color: #428bca;
+}
+.trait i:hover{
+	color: #428bca;
+}
+.jiage{
+	border: 1px solid #428bca;
+	border-radius: 10px;
+	min-height: 300px;
+	margin: 20px;
+	color: #428bca;
+}
+.bg{
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+	background: url(../../images/web_file/bg.png) no-repeat;
+}
+
+
+
+
+
+
+.footer{
+	margin-top: 20px;
+	padding: 20px 20px 10px;
+	background: #428bca ;
+	color: #fff;
+}
+.footer a{
+	color:#fff;
+}
+.friend-links li{
+	float: left;
+	padding-right: 15px;
+}
